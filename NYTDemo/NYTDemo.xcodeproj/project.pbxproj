@@ -14,6 +14,14 @@
 		CE8E652824038BC100796BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E652624038BC100796BCE /* LaunchScreen.storyboard */; };
 		CE8E653324038BC100796BCE /* NYTDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E653224038BC100796BCE /* NYTDemoTests.swift */; };
 		CE8E653E24038BC100796BCE /* NYTDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E653D24038BC100796BCE /* NYTDemoUITests.swift */; };
+		CEEBE32F258B16FA0039BA7F /* WebServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE32E258B16FA0039BA7F /* WebServiceApi.swift */; };
+		CEEBE331258B17320039BA7F /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE330258B17320039BA7F /* HttpMethod.swift */; };
+		CEEBE333258B17520039BA7F /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE332258B17520039BA7F /* NetworkApi.swift */; };
+		CEEBE335258B17810039BA7F /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE334258B17810039BA7F /* NetworkRequest.swift */; };
+		CEEBE337258B17A30039BA7F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE336258B17A30039BA7F /* NetworkError.swift */; };
+		CEEBE339258B17C10039BA7F /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE338258B17C10039BA7F /* NetworkConfig.swift */; };
+		CEEBE33B258B17D70039BA7F /* NYTServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE33A258B17D60039BA7F /* NYTServiceAPI.swift */; };
+		CEEBE340258B19310039BA7F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE33F258B19310039BA7F /* Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,14 @@
 		CE8E653D24038BC100796BCE /* NYTDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTDemoUITests.swift; sourceTree = "<group>"; };
 		CE8E653F24038BC100796BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8E65752403AEF600796BCE /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		CEEBE32E258B16FA0039BA7F /* WebServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceApi.swift; sourceTree = "<group>"; };
+		CEEBE330258B17320039BA7F /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		CEEBE332258B17520039BA7F /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		CEEBE334258B17810039BA7F /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		CEEBE336258B17A30039BA7F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CEEBE338258B17C10039BA7F /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		CEEBE33A258B17D60039BA7F /* NYTServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTServiceAPI.swift; sourceTree = "<group>"; };
+		CEEBE33F258B19310039BA7F /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +116,8 @@
 		CE8E651824038BC000796BCE /* NYTDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CEEBE33C258B18E50039BA7F /* Extensions */,
+				CEEBE32D258B16DF0039BA7F /* Network */,
 				CE8E65742403AECD00796BCE /* Configurations */,
 				CE8E654F24038DC600796BCE /* Storyboards */,
 				CE8E651924038BC000796BCE /* AppDelegate.swift */,
@@ -145,6 +163,28 @@
 				CE66D6E12403B0AC00FC085F /* Production.xcconfig */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		CEEBE32D258B16DF0039BA7F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBE32E258B16FA0039BA7F /* WebServiceApi.swift */,
+				CEEBE330258B17320039BA7F /* HttpMethod.swift */,
+				CEEBE332258B17520039BA7F /* NetworkApi.swift */,
+				CEEBE334258B17810039BA7F /* NetworkRequest.swift */,
+				CEEBE336258B17A30039BA7F /* NetworkError.swift */,
+				CEEBE338258B17C10039BA7F /* NetworkConfig.swift */,
+				CEEBE33A258B17D60039BA7F /* NYTServiceAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CEEBE33C258B18E50039BA7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBE33F258B19310039BA7F /* Dictionary.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEBE333258B17520039BA7F /* NetworkApi.swift in Sources */,
+				CEEBE337258B17A30039BA7F /* NetworkError.swift in Sources */,
+				CEEBE331258B17320039BA7F /* HttpMethod.swift in Sources */,
+				CEEBE340258B19310039BA7F /* Dictionary.swift in Sources */,
+				CEEBE32F258B16FA0039BA7F /* WebServiceApi.swift in Sources */,
 				CE8E651A24038BC000796BCE /* AppDelegate.swift in Sources */,
+				CEEBE335258B17810039BA7F /* NetworkRequest.swift in Sources */,
+				CEEBE339258B17C10039BA7F /* NetworkConfig.swift in Sources */,
 				CE8E651C24038BC000796BCE /* SceneDelegate.swift in Sources */,
+				CEEBE33B258B17D70039BA7F /* NYTServiceAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nyt.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,7 +624,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nyt.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,7 +643,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nyt.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
