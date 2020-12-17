@@ -42,8 +42,6 @@ class WebServiceApi:  EndPointType {
             }
             request.setValue(kJSONValue, forHTTPHeaderField: kContentTypeHeader)
             
-        } else if self.httpMethod == .delete {
-            
         } else {
             request.setValue(kCharsetUTF8Value, forHTTPHeaderField: kContentTypeHeader)
         }
@@ -57,7 +55,7 @@ class WebServiceApi:  EndPointType {
     var url:String {
         var urlString  = self.baseUrl + self.path
         if self.httpMethod == .get {
-            if self.paramters.queryString.isEmpty {
+            if self.paramters.queryString.count > 0 {
                 urlString += "?" + self.paramters.queryString
             }
             
