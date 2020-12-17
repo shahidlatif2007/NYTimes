@@ -14,6 +14,10 @@
 		CE8E652824038BC100796BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E652624038BC100796BCE /* LaunchScreen.storyboard */; };
 		CE8E653324038BC100796BCE /* NYTDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E653224038BC100796BCE /* NYTDemoTests.swift */; };
 		CE8E653E24038BC100796BCE /* NYTDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E653D24038BC100796BCE /* NYTDemoUITests.swift */; };
+		CEBE4920258BCF6F00F791E0 /* NetworkConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE491F258BCF6F00F791E0 /* NetworkConfigTests.swift */; };
+		CEBE4922258BCFC100F791E0 /* BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE4921258BCFC100F791E0 /* BoxTests.swift */; };
+		CEBE4926258BDB2400F791E0 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE4925258BDB2400F791E0 /* ExtensionTests.swift */; };
+		CEBE4928258BDB8500F791E0 /* NetworkErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE4927258BDB8500F791E0 /* NetworkErrorTests.swift */; };
 		CEEBE32F258B16FA0039BA7F /* WebServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE32E258B16FA0039BA7F /* WebServiceApi.swift */; };
 		CEEBE331258B17320039BA7F /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE330258B17320039BA7F /* HttpMethod.swift */; };
 		CEEBE333258B17520039BA7F /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE332258B17520039BA7F /* NetworkApi.swift */; };
@@ -32,6 +36,7 @@
 		CEEBE35C258B724A0039BA7F /* NYTime.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEEBE35B258B724A0039BA7F /* NYTime.plist */; };
 		CEEBE35E258B73670039BA7F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE35D258B73670039BA7F /* ImageView.swift */; };
 		CEEBE361258B9FD40039BA7F /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE360258B9FD40039BA7F /* ArticleDetailViewController.swift */; };
+		CEEBE3E5258BCC4A0039BA7F /* ArticleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE3E4258BCC4A0039BA7F /* ArticleViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +73,10 @@
 		CE8E653D24038BC100796BCE /* NYTDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTDemoUITests.swift; sourceTree = "<group>"; };
 		CE8E653F24038BC100796BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8E65752403AEF600796BCE /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		CEBE491F258BCF6F00F791E0 /* NetworkConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfigTests.swift; sourceTree = "<group>"; };
+		CEBE4921258BCFC100F791E0 /* BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxTests.swift; sourceTree = "<group>"; };
+		CEBE4925258BDB2400F791E0 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		CEBE4927258BDB8500F791E0 /* NetworkErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorTests.swift; sourceTree = "<group>"; };
 		CEEBE32E258B16FA0039BA7F /* WebServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceApi.swift; sourceTree = "<group>"; };
 		CEEBE330258B17320039BA7F /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		CEEBE332258B17520039BA7F /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
@@ -86,6 +95,7 @@
 		CEEBE35B258B724A0039BA7F /* NYTime.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NYTime.plist; sourceTree = "<group>"; };
 		CEEBE35D258B73670039BA7F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		CEEBE360258B9FD40039BA7F /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		CEEBE3E4258BCC4A0039BA7F /* ArticleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +170,11 @@
 			children = (
 				CE8E653224038BC100796BCE /* NYTDemoTests.swift */,
 				CE8E653424038BC100796BCE /* Info.plist */,
+				CEEBE3E4258BCC4A0039BA7F /* ArticleViewModelTests.swift */,
+				CEBE491F258BCF6F00F791E0 /* NetworkConfigTests.swift */,
+				CEBE4921258BCFC100F791E0 /* BoxTests.swift */,
+				CEBE4925258BDB2400F791E0 /* ExtensionTests.swift */,
+				CEBE4927258BDB8500F791E0 /* NetworkErrorTests.swift */,
 			);
 			path = NYTDemoTests;
 			sourceTree = "<group>";
@@ -448,6 +463,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8E653324038BC100796BCE /* NYTDemoTests.swift in Sources */,
+				CEBE4922258BCFC100F791E0 /* BoxTests.swift in Sources */,
+				CEEBE3E5258BCC4A0039BA7F /* ArticleViewModelTests.swift in Sources */,
+				CEBE4926258BDB2400F791E0 /* ExtensionTests.swift in Sources */,
+				CEBE4920258BCF6F00F791E0 /* NetworkConfigTests.swift in Sources */,
+				CEBE4928258BDB8500F791E0 /* NetworkErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6E7873CYT;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = NYTDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -750,6 +771,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6E7873CYT;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = NYTDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,7 +11,6 @@ import Foundation
 class Box<T> {
     typealias Listener = (T) -> Void
     var listener: Listener?
-    var shouldCallListenerForIntialValue = false
     
     var value: T {
         didSet {
@@ -25,9 +24,6 @@ class Box<T> {
     
     func bind(listener: Listener?) {
         self.listener = listener
-        if shouldCallListenerForIntialValue {
-            listener?(value)
-        }
     }
 }
 

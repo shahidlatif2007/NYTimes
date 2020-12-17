@@ -23,12 +23,22 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Production"
+      buildConfiguration = "Staging"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE8E652D24038BC100796BCE"
+               BuildableName = "NYTDemoTests.xctest"
+               BlueprintName = "NYTDemoTests"
+               ReferencedContainer = "container:NYTDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

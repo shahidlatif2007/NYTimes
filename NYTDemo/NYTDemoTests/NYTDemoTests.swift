@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import NYTDemo
+
 
 class NYTDemoTests: XCTestCase {
 
