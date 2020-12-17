@@ -1,0 +1,14 @@
+//
+//  Staging.xcconfig
+//  NYTDemo
+//
+//  Created by Shahid Latif on 17/12/2020.
+//  Copyright © 2020 Shahid Latif. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https:/$()/api.nytimes.com/svc/
+APP_BUNDLE_ID = com.nytime.staging
+APP_NAME = NYT Staging
