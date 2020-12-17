@@ -10,5 +10,5 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 BASE_URL = https:/$()/api.nytimes.com/svc/
-APP_BUNDLE_ID = com.nytime.demo
+APP_BUNDLE_ID = ae.gov.mol.absher
 APP_NAME = NYT Demo

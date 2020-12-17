@@ -43,7 +43,7 @@ class NetworkApi: NetworkRequest {
                 }
                 if let data = data {
                     //Hanlde data
-                    print(String(decoding: data, as: UTF8.self))
+//                    print(String(decoding: data, as: UTF8.self))
                     
                     if let responseObject = try? JSONDecoder().decode(T.self, from:data) {
                         success(responseObject)
