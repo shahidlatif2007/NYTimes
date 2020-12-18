@@ -1,6 +1,6 @@
 # NYTimes
 
-This application shows most popular articles from NY times. User can filter by Day, Week and Month. The projct is build using Xcode  11.6. I have not used any external library while buiding this application. This application is built using **MVVM** Architecture. Please checkout **master** branch to review the assignment.
+This application shows most popular articles from NY times. User can filter by Day, Week and Month. The projct is build using Xcode  11.6. I have not used any external library while buiding this application. This application is built using **MVVM** Architecture. Please checkout **Main** branch to review the assignment.
 
 
 # Application Structure
